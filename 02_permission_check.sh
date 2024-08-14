@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # 02 - Permission Check
+# 08.14.24
 # Check if a file is readable, writable, and executable.
 
 echo "Enter path to file:"
