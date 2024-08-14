@@ -6,6 +6,9 @@
 echo "Enter path to file:"
 read filepath
 
+# $1 is an argument so no need to use `read`!
+# echo $1
+
 # check if path is a file/exists
 if ! [[ -f $filepath ]]
 then
